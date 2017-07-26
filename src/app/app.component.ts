@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   //templateUrl: './app.component.html',
   template: `
-            <h1> How to create template in Angular and render data from array using ngFor </h1>
+            <h1> How to create template in Angular4 and render data from array using ngFor </h1>
             <ul>
                 <li *ngFor="let arr of myArr">{{ arr }}</li>
             </ul>  
