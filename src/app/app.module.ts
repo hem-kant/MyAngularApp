@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MyNewComponentComponent } from './my-new-component/my-new-component.component';
+import { DataserviceService } from './dataservice.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -10,9 +12,12 @@ import { MyNewComponentComponent } from './my-new-component/my-new-component.com
     MyNewComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // FromsModule,
+    // HttpModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [DataserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
