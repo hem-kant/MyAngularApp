@@ -53,10 +53,10 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
 export class AppComponent {
 
   state: string = 'small'
-  // myEvent(event)
-  // {
-  //   console.log(event);
-  // }
+   myEvent(event)
+   {
+    console.log(event);
+   }
 constructor(private dataservice:DataserviceService){
 
 }
